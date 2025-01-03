@@ -272,10 +272,10 @@ static InstallResult prompt_and_wipe_data(Device* device) {
   }
   // Use a single string and let ScreenRecoveryUI handles the wrapping.
   std::vector<std::string> wipe_data_menu_headers{
-    "Can't load Android system. Your data may be corrupt. "
-    "If you continue to get this message, you may need to "
-    "perform a factory data reset and erase all user data "
-    "stored on this device.",
+    "may ngu thi may chet cmm di? cx co le do t code ngu. "
+    "neu ban tiep tuc thay thong bao nay, co the ban can "
+    "vut con me may cua ban di vi Android nhu cac vay a, "
+    "(dung iOS di kkk), hoac reset may.",
   };
   // clang-format off
   std::vector<std::string> wipe_data_menu_items {
